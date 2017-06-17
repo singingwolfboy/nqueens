@@ -35,7 +35,7 @@ def remaining_positions(board, size):
     Args:
         board (frozenset): The set of (x, y) tuples where queens have
             already been placed on the board. To represent an empty board,
-            pass an empty set, or None.
+            pass an empty set.
         size (int): The number of rows and columns this board has.
 
     Returns:
